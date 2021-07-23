@@ -2,10 +2,6 @@ def QuickSort(arr):
     
     elements = len(arr)
     
-    #Base case
-    if elements < 2:
-        return arr
-    
     current_position = 0 #Position of the partitioning element
 
     for i in range(1, elements): #Partitioning loop
